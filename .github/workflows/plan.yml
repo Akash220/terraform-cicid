@@ -1,0 +1,9 @@
+name: planning the infrastructure 
+on : push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: welcome message
+          run: echo "my first github actions job"
