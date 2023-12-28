@@ -11,6 +11,7 @@ jobs:
           run: echo "my first github actions job"
         - name: List Files
           run: ls
-        - name: read file
+        - name: checkout repo
           uses: actions/checkout@v4
+        - name: read file
           run: cat README.md
